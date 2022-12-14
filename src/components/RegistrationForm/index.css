@@ -1,0 +1,111 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  color: #ea580c;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  min-height: 300px;
+  width: 350px;
+  flex-shrink: 0;
+  padding: 48px 64px 48px 64px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.error-message {
+  color: #ff0b37;
+  font-size: 12px;
+  margin-top: 3px;
+  align-self: flex-start;
+  margin-bottom: 0px;
+}
+
+.submit-btn {
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 25px;
+  width: 60px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  background-color: #ea580c;
+}
+
+.input-label {
+  color: #475569;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.first-input-field {
+  font-size: 14px;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  margin-top: 5px;
+  outline: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 16px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+}
+
+.last-input-field {
+  font-size: 14px;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  margin-top: 5px;
+  outline: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 16px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+}
+
+.error-box {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.submit-another-response-btn {
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 25px;
+  width: 160px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  background-color: #ea580c;
+}
